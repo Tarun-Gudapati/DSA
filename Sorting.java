@@ -43,7 +43,7 @@ String str=Arrays.toString(arr);
             swap(arr, j, j-1); 
           }
 
-      }
+      } 
 
     }
     String str=Arrays.toString(arr);
