@@ -23,7 +23,7 @@ public class Problem2149 {
     if(nums[i]>0)
     {
       arr1[a1]=nums[i];
-      a1++;
+      a1++; 
     }
     else{
       arr2[a2]=nums[i];
