@@ -12,6 +12,7 @@ public class printFor5Times {
     if(i> 0)
     {
      name(i);
+     System.out.print(" ");
     }
   }
 }
