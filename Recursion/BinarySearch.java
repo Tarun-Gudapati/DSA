@@ -6,12 +6,12 @@ public class BinarySearch {
   public static void main(String[] args) {
     int [] arr ={1,5,6,7,8,9,77};
     Arrays.sort(arr);
-    int target=77;
+    int target=07;
     System.out.println( binarySearch(arr,target));
   }
 
   private static int binarySearch(int[] arr, int target) {
-    int finalV=arr[0];
+    int finalV=-1;
 int low=0 ;
 int high=arr.length-1;
 
@@ -35,7 +35,10 @@ while(high!=low)
     }
 }
 if (high==low) {
-  return low;
+  if (arr[high]==target) {
+    return high;
+    
+  };
 }
    
    return finalV;
