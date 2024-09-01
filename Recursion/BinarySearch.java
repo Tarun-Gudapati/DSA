@@ -6,17 +6,17 @@ public class BinarySearch {
   public static void main(String[] args) {
     int [] arr ={1,5,6,7,8,9,77};
     Arrays.sort(arr);
-    int target=07;
+    int target=77;
     System.out.println( binarySearch(arr,target));
   }
 
   private static int binarySearch(int[] arr, int target) {
-    int finalV=-1;
+   
 int low=0 ;
 int high=arr.length-1;
 
 int mid;
-while(high!=low)
+while(high>=low)
 {
     mid=(high+low)/2;
     if (arr[mid]==target) {
@@ -34,13 +34,8 @@ while(high!=low)
       }
     }
 }
-if (high==low) {
-  if (arr[high]==target) {
-    return high;
-    
-  };
-}
+
    
-   return finalV;
+   return -1;
   }
 }
