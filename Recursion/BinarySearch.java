@@ -8,10 +8,9 @@ public class BinarySearch {
     Arrays.sort(arr);
     int target=77;
     int low=0 ;
-int high=arr.length-1;
-    
+    int high=arr.length-1;
 
-System.out.println( binarySearch(arr,target));
+    System.out.println( binarySearch(arr,target));
     System.out.println( recBinarySearch(arr,target,low,high));
   
   }
