@@ -8,6 +8,7 @@ public class BinarySearch {
     Arrays.sort(arr);
     int target=77;
     int low=0 ;
+    int a=0;
     int high=arr.length-1;
 
     System.out.println( binarySearch(arr,target));
