@@ -1,40 +1,50 @@
 package Recursion;
 
+import java.util.Arrays;
+
+/**
+ * FrstOcccrnce
+ */
 public class FrstOcccrnce {
-  class Solution {
-    public int[] searchRange(int[] nums, int target) {
-        int[] result = {-1, -1};
-        int left = binarySearch(nums, target, true);
-        int right = binarySearch(nums, target, false);
-        result[0] = left;
-        result[1] = right;
-        return result;        
+
+    public static void main(String[] args) {
+      int [] arr={5,7,7,8,8,10};
+      int target=8;
+      String str=Arrays.toString(targetArr(arr,target));
+      System.out.println(str);
+      
     }
 
-    private int binarySearch(int[] nums, int target, boolean isSearchingLeft) {
-        int left = 0;
-        int right = nums.length - 1;
-        int idx = -1;
+    private static int[] targetArr(int[] arr, int target) {
+    int opt[]={-1,-1};
+    if(arr.length<1)
+    {
+      return opt;
+    }
+    int high=arr.length-1;
+    int low=0;
+  
+    while (high>low) {
+      int mid=(high+low)/2;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            
-            if (nums[mid] > target) {
-                right = mid - 1;
-            } else if (nums[mid] < target) {
-                left = mid + 1;
-            } else {
-                idx = mid;
-                if (isSearchingLeft) {
-                    right = mid - 1;
-                } else {
-                    left = mid + 1;
-                }
-            }
-        }
+      if(arr[mid]==target)
+      {
+        opt[0]=mid;
+        high=mid-1; 
+        opt[1]=mid+1;
+        return opt;
 
-        return idx;
+      }
+      else if (arr[mid]>target) {
+        high=mid-1;
+      
+      }
+      else{
+        low=mid+1;
+      }
+    }  
+    return opt;
     }
 
-}
+  
 }
