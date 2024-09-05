@@ -3,6 +3,7 @@ public class SubarraySumEqualsK560 {
     int []arr={1,1,1};
     int k=2;
     System.out.println(subarraySum(arr, k));
+    int x=5;
   }
 
   private static int subarraySum(int[] arr, int k) {
