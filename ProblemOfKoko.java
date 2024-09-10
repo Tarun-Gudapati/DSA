@@ -10,15 +10,22 @@ public class ProblemOfKoko {
 
   private static int findMin(int[] arr, int target) {
    int min =0;
-     int max = Arrays.stream(arr).max().getAsInt();
+     int right = Arrays.stream(arr).max().getAsInt();
      int mp=0;
-   for(int i=1;i<=max;i++)
-   {
-    mp=gettingTemp(arr,i);
-    if (mp<=target) {
-      min=i;
-      break;
-    }
+    int left=1;
+     while (right>=left) {
+      int mid=(left+right)/2;
+      mp=gettingTemp(arr,mid);
+      if (mp<=target) {
+        min=mid;
+        right=mid-1;
+      }
+      else {
+        // If it takes more than target hours, increase the speed
+        left = mid + 1;
+      
+     }
+ 
 
    }
   return min;
