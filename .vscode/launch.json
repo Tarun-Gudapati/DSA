@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "FindingEnergy",
+      "request": "launch",
+      "mainClass": "FindingEnergy",
+      "projectName": "DSA_7abaf5b7"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
