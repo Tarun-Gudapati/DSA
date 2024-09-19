@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "test2",
+      "request": "launch",
+      "mainClass": "test2",
+      "projectName": "DSA_7abaf5b7"
+    },
+    {
+      "type": "java",
+      "name": "RemoveOuterMost",
+      "request": "launch",
+      "mainClass": "RemoveOuterMost",
+      "projectName": "DSA_7abaf5b7"
+    },
+    {
+      "type": "java",
       "name": "FindingEnergy",
       "request": "launch",
       "mainClass": "FindingEnergy",
