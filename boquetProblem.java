@@ -1,4 +1,4 @@
-class Solution {
+class boquetProblem {
     public int minDays(int[] bloomDay, int m, int k) {
         if ((long) m * k > bloomDay.length) {
             return -1;

@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "KthMissingPositive",
+      "request": "launch",
+      "mainClass": "KthMissingPositive",
+      "projectName": "DSA_7abaf5b7"
+    },
+    {
+      "type": "java",
+      "name": "Odd1903",
+      "request": "launch",
+      "mainClass": "Odd1903",
+      "projectName": "DSA_7abaf5b7"
+    },
+    {
+      "type": "java",
+      "name": "RemovingSpaces",
+      "request": "launch",
+      "mainClass": "RemovingSpaces",
+      "projectName": "DSA_7abaf5b7"
+    },
+    {
+      "type": "java",
       "name": "adding",
       "request": "launch",
       "mainClass": "adding",
