@@ -4,7 +4,11 @@ public class KthMissingPositive {
   public static void main(String[] args) {
       int arr[]={2,3,4,7,11};
       int k=5;
+      int a=7;
+      //hello
+
      System.out.println( findKthPositive(arr,k));
+     
       
   }
   public static int findKthPositive(int []arr,int k)
