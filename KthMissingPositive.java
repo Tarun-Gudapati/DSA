@@ -6,7 +6,7 @@ public class KthMissingPositive {
       int arr[]={2,3,4,7,11};
       int k=5;
       int a=7;
-      //hello;
+      //hello;hhbjnk
 
      System.out.println( findKthPositive(arr,k));
      
@@ -21,6 +21,7 @@ public class KthMissingPositive {
     for(int i=1;i<=last;i++)
     {
         narr[i-1]=i;
+        int x=5;
     }
     int left =arr[0];
     int right=arr[arr.length-1];
