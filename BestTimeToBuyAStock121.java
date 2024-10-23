@@ -9,6 +9,7 @@ private static int maxProfit(int[] arr) {
   int buy=arr[0],profit=0;
   for (int i = 0; i < arr.length; i++) {
     buy=Math.min(arr[i], buy);
+    int a=5;
     profit=Math.max(profit, arr[i]-buy);
   }
 
