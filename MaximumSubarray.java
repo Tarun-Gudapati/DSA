@@ -18,11 +18,11 @@ class Solution {
     for(int i=0;i<len;i++)
     {
       product=nums[i];
-      peak=(product>peak)?product:peak;
+      peak=Math.max(peak, product);
         for(int j=i+1;j<len;j++)
         {
             product*=nums[j];
-            peak=(product>peak)?product:peak;
+           peak=Math.max(peak, product);
         }
     }
 
