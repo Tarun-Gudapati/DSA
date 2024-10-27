@@ -2,7 +2,7 @@ public class MatrixRotation {
 
 
   public static void main(String[] args) {
-    int [][]arr={{5,1,9,11},{2,4,8,10},{13,3,6,7},{15,14,12,16}};
+    int [][]arr={{5,1,9,11},{2,4,8,10},{13,3,6,7},{15,14,12,17,16}};
    
     rotateBy90(arr);
     for (int[] is : arr) {
