@@ -1,6 +1,6 @@
 public class MaximumSubarray {
   public static void main(String[] args) {
-    int [] arr={2,3,-2,4};
+    int [] arr={2,3,-2,5,4};
     Solution mx=new Solution();
     System.out.println("the value is:"+mx.maxProduct(arr));
   }
