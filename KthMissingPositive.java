@@ -26,6 +26,7 @@ public class KthMissingPositive {
     int left =arr[0];
     int right=arr[arr.length-1];
     int mid;
+    mid=5;
     boolean found=false;
     int increment =0;
    while (right>=left) {
