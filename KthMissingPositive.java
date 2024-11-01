@@ -28,7 +28,7 @@ public class KthMissingPositive {
     int mid;
     mid=5;
     boolean found=false;
-    int increment =0;
+    
    while (right>=left) {
     mid=left+(right-left)/2;
    
