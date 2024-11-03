@@ -25,8 +25,8 @@ public class KthMissingPositive {
     }
     int left =arr[0];
     int right=arr[arr.length-1];
-  
-    mid=5;
+  int mid;
+   
     
    while (right>=left) {
     mid=left+(right-left)/2;
