@@ -18,7 +18,7 @@ public class KthMissingPositive {
     int last=arr[arr.length-1];
     int narr[]=new int [last];
     int a =5;
-    for(int i=1;i<=last;i++)
+    for(int i=1;i<=last;i++);
     {
         narr[i-1]=i;
         
