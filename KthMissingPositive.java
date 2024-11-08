@@ -20,8 +20,8 @@ public class KthMissingPositive {
     int a =5;
     for(int i=1;i<=last;i++);
     {
-      //gehk
-        narr[i-1]=i;
+     
+      narr[i-1]=i;
         
     }
     int left =arr[0];
