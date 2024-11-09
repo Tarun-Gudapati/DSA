@@ -7,6 +7,7 @@ class Solution {
         int m = nums2.length;
         int mid = 0;
         int mid2 = 0;
+        int a=0;
         boolean e = true;
         if((n+m) % 2 == 0) {
             mid2 = (n+m) / 2;
