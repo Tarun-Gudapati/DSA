@@ -8,6 +8,7 @@ class Solution {
         int mid = 0;
         int mid2 = 0;
         int a=0;
+        //sedkk
         boolean e = true;
         if((n+m) % 2 == 0) {
             mid2 = (n+m) / 2;
